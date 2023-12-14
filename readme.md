@@ -7,12 +7,12 @@
 ## Etudiant: Wendyam YAMEOGO
 ## Master: SISE
 
-## Accessibilité 1: 
-### Lien API: https://yameogo123-backend.hf.space/docs
-### Lien APPLICATION: https://yameogo123-frontend.hf.space
+### Accessibilité 1: 
+##### Lien API: https://yameogo123-backend.hf.space/docs
+##### Lien APPLICATION: https://yameogo123-frontend.hf.space
 
-## Accessibilité 2:
-### cloner le github et appliquer la commande docker compose up (--build)
+### Accessibilité 2:
+##### cloner le github et appliquer la commande docker compose up (--build)
 
 
 Réalisation d'une plateforme de prediction de fleurs iris d'une part et de prédiction de cas de diabète ou non.
