@@ -7,12 +7,15 @@
 ## Etudiant: Wendyam YAMEOGO
 ## Master: SISE
 
-### Accessibilité 1: 
+### Accessibilité 1: (hébergé sur hugging face)
 ##### Lien API: https://yameogo123-backend.hf.space/docs
 ##### Lien APPLICATION: https://yameogo123-frontend.hf.space
 
-### Accessibilité 2:
-##### cloner le github et appliquer la commande docker compose up (--build)
+### Accessibilité 2: (héberger sur docker hub)
+##### télécharger le fichier docker-compose.yml
+##### lancer la commande `docker compose pull` afin de récupérer les script dans votre docker
+##### puis lancer la commande `docker compose up` afin de lancer le script
+##### enfin les accès sont: Streamlit: http://localhost:8501 et FastAPI: http://localhost:8000/docs
 
 
 Réalisation d'une plateforme de prediction de fleurs iris d'une part et de prédiction de cas de diabète ou non.

@@ -1,3 +1,28 @@
+# version: '1'
+
+# services:
+#   mongo:
+#     image: mongo
+
+#   server:
+#     image: td_server:1.0.1
+#     platform: linux/amd64
+#     build:
+#       context: ./server
+#       dockerfile: Dockerfile
+#     ports:
+#     - 8000:8000
+
+#   client:
+#     image: td_client:1.0.1
+#     platform: linux/amd64
+#     build:
+#       context: ./client
+#       dockerfile: Dockerfile
+#     ports:
+#     - 8501:8501
+
+
 version: '1'
 
 services:
@@ -5,7 +30,8 @@ services:
     image: mongo
 
   server:
-    image: td_server:1.0.1
+    image: maximilien10/mlops_server:1.0.1
+    container_name: mlops_server
     build:
       context: ./server
       dockerfile: Dockerfile
@@ -13,7 +39,8 @@ services:
     - 8000:8000
 
   client:
-    image: td_client:1.0.1
+    image: maximilien10/mlops_client:1.0.1
+    container_name: mlops_client
     build:
       context: ./client
       dockerfile: Dockerfile
